@@ -1,13 +1,14 @@
-package pageobject;
+package test.tests;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Test;
+import pageobject.RegisterPage;
 import test.constants.Data;
 import api.UserApiSteps;
 import api.UserLoginRequest;
-import test.BaseTest;
+import test.tests.BaseTest;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertTrue;

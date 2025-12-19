@@ -1,15 +1,18 @@
-package pageobject;
+package test.tests;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import pageobject.ForgotPasswordPage;
+import pageobject.LoginPage;
+import pageobject.MainPage;
+import pageobject.RegisterPage;
 import test.constants.Data;
 import api.UserApiSteps;
 import api.UserCreateAndEditRequest;
 import api.UserLoginRequest;
-import test.BaseTest;
 
 import static org.junit.Assert.assertTrue;
 
